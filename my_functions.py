@@ -6,6 +6,36 @@ Description: Functions for LiveHack performance task.
 """
 
 
+def is_lucky(number):
+    """
+    Check if a number is lucky, meaning it contains the digit 8 but not the digit 4.
+    
+    Parameters:
+        number (int): The number to check for luckiness.
+    
+    Returns:
+        bool: True if the number is lucky, False otherwise.
+    """
+    # Convert the number to a string to check each digit
+    number_str = str(number)
+    
+    # Check if the number contains a 4
+    if "4" in number_str:
+        return False
+    
+    # Check if the number contains an 8
+    if "8" in number_str:
+        # If there's an 8 and no 4, it's lucky
+        if "4" not in number_str:
+            return True
+        # If there's an 8 and also a 4, it's unlucky
+        else:
+            return False
+    
+    # If the number contains neither 4 nor 8, it's unlucky
+    return False
+
+
 def generate_acronym(phrase, with_periods=False):
     """
     Generate an acronym from a given phrase.
@@ -39,33 +69,4 @@ def generate_acronym(phrase, with_periods=False):
             new_word = False
 
     return acronym
-
-
-def is_lucky(number):
-    """
-    Check if a number is lucky, meaning it contains the digit 8 but not the digit 4.
     
-    Parameters:
-        number (int): The number to check for luckiness.
-    
-    Returns:
-        bool: True if the number is lucky, False otherwise.
-    """
-    # Convert the number to a string to check each digit
-    number_str = str(number)
-    
-    # Check if the number contains a 4
-    if "4" in number_str:
-        return False
-    
-    # Check if the number contains an 8
-    if "8" in number_str:
-        # If there's an 8 and no 4, it's lucky
-        if "4" not in number_str:
-            return True
-        # If there's an 8 and also a 4, it's unlucky
-        else:
-            return False
-    
-    # If the number contains neither 4 nor 8, it's unlucky
-    return False

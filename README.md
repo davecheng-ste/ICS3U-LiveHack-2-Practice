@@ -14,6 +14,8 @@ In Chinese culture, the number 8 is considered lucky because it is pronounced si
 
 Likewise, the number 4 is considered unlucky because it sounds like "death". Some Las Vegas hotels like the Encore and the Wynn even go so far as to skip the 40th to 49th floors in their numbering.
 
+![turning red](images/turning_red.jpg)
+
 Write a function that takes an single parameter of an integer number. It then returns a boolean result of whether or not the number is lucky, based on these rules:
 
 - If there is a 4 anywhere in the number, it is unlucky, thus return False.

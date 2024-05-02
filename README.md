@@ -12,7 +12,7 @@ Make sure to document your code, including writing a complete **docstring** for 
 
 In Chinese culture, the number 8 is considered lucky because it is pronounced similarly to the word for "wealth" and "prosperity". Chinese speakers often place particular emphasis on the number's auspicious qualities. For example, houses with street addresses containing the number 8 often appeal more to some Chinese buyers because of this superstition.
 
-Likewise, the number 4 is considered unlucky because it sounds like "death". Some Las Vegas hotels like the Encore and the Wynn even go so far as to skip the 40th to 49th floors in their numbering.
+Likewise, the number 4 is considered unlucky because it sounds like "death". Some Las Vegas hotels like the Encore and the Wynn even go so far as to skip the 40th to 49th floors in their numbering. You might remember this scene from Pixar's *Turning Red*: "So unlucky!"
 
 ![turning red](images/turning_red.jpg)
 
